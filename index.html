@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fixit_home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,900&display=swap" rel="stylesheet">
+
+    <style>
+        /*-----Ini untuk navbar nya-----*/
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            margin: 5px 75px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(253, 253, 253);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000px;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #DE2523;
+            text-align: center;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background: rgba(251, 251, 251, 0.644);
+            color: black;
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+            /* Used in this example to enable scrolling */
+        }
+
+        /*Ini untuk background Image*/
+        .bg {
+            /* The image used */
+            background-color: #DE2523;
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .top-left {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0px -180px;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+
+        .btn:hover {
+            color: #DE2523;
+        }
+
+        #gmbr {
+            -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition: transform .8s ease-in-out;
+        }
+
+        #gmbr:hover {
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Ini untuk navbar-->
+
+    <div class="navbar">
+        <div class="container">
+            <a href="#"><img src="image\f-02.png" id="gmbr" style="height: 32px; width: 18,125px;"></a>
+            <div class="dua" style="margin: 7px 0px; font-family: 'Montserrat', sans-serif;">
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="#" class="logokanan" style="float: right; margin: -3px 0px; "><img src="image\seclog-02.png"
+                    style="width: 86px; height: 38px; margin: -9px -24px;"></a>
+        </div>
+    </div>
+
+
+
+    <!--Ini untuk Foto background-->
+
+
+    <div class="bg">
+        <img src="image\benernih-04.png" class="gambar" style="width: 95%;
+                    height: 505px;
+                    padding: -1px 20px;
+                    margin: 103px 31px;">
+
+        <div class="top-left">
+            <h2>
+                WE CAN FIX
+            </h2>
+            <h2>
+                YOUR VEHICLE AND
+            </h2>
+            <h2>
+                SELL OTHER PARTS
+            </h2>
+            <h2>
+                <button class="btn" style="border:5px solid white; background-color: transparent;border-radius: 17px; font-size: 40px; margin: 0px 6px;
+            padding: 0px 10px;" onclick="window.open('fixvehicle.html')"><span>More</span></button>
+
+            </h2>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

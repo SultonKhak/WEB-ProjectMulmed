@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service_your_carandmotor_pageservice</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <style>
+        /*-----Ini untuk navbar nya-----*/
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            margin: 5px 75px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(253, 253, 253);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #DE2523;
+            text-align: center;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background: rgba(251, 251, 251, 0.644);
+            color: black;
+        }
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+            /* Used in this example to enable scrolling */
+        }
+
+        /*Ini untuk background Image*/
+        .bg {
+            /* The image used */
+            background-color: #DE2523;
+            /* Full height */
+            height: 250%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .btn:hover {
+            color: #DE2523;
+        }
+
+        #gmbr {
+            -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition: transform .8s ease-in-out;
+        }
+
+        #gmbr:hover {
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .image-container img {
+            max-width: 100%;
+        }
+
+        .image-container {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Ini untuk navbar-->
+
+    <div class="navbar">
+        <div class="container">
+            <a href="index.html"><img src="image\f-02.png" id="gmbr"
+                    style="height: 32px; width: 18,125px;"></a>
+            <div class="dua" style="margin: 7px 0px; font-family: 'Montserrat', sans-serif;">
+                <a href="services.html"><b>Services</b></a>
+                <a href="contact.html"><b>Contact</b></a>
+            </div>
+            <a href="index.html" class="logokanan" style="float: right; margin: -3px 0px; "><img
+                    src="image\seclog-02.png"
+                    style="width: 86px; height: 38px; margin: -9px -24px;"></a>
+        </div>
+    </div>
+
+    <div class="bg">
+            <div class="row" style="padding:110px;">
+                    <div class="col-md-6" style="height:500px;">
+                        <h2 style="font-family: 'Montserrat', sans-serif; text-align: center; color: white;" id="about"><b>Car</b></h2>
+                        <h2 style="font-family: 'Montserrat', sans-serif; margin: 10px 70px; color: white;text-align: center;">service can come directly to our garage that matches the address, or if you strike in the middle of the road you can call us and we will come where you strike. 
+            
+                        </h2>
+                    </div>
+                    <div class="col-md-6 image-container" style="height:500px;">
+                        <img src="image\fiat_samping.jpg"
+                            alt="">
+                    </div>
+                </div>
+            
+                <div class="row" style="padding: 110px;">
+                    <div class="col-md-6 image-container" style="height:500px;">
+                        <img src="image\motor_keren.jpg"
+                            alt="">
+                    </div>
+                    <div class="col-md-6" style="height:100px;">
+                        <h2 style="font-family: 'Montserrat', sans-serif; text-align: center; color: white;" id="background"><b>Motorcycle</b></h2>
+                        <h2 style="font-family: 'Montserrat', sans-serif; margin: 10px 70px; color: white; text-align: center;">service can come directly to our garage that matches the address, or if you strike in the middle of the road you can call us and we will come where you strike.</h2>
+                    </div>
+                </div>
+    </div>
+
+</body>
+
+</html>

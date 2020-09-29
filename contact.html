@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,900&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            margin: 5px 75px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(253, 253, 253);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #DE2523;
+            text-align: center;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background: rgba(251, 251, 251, 0.644);
+            color: black;
+        }
+
+
+        .main {
+            padding: 16px;
+            margin-top: 30px;
+            height: 1500px;
+            /* Used in this example to enable scrolling */
+        }
+
+        #gmbr {
+            -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition: transform .8s ease-in-out;
+        }
+
+        #gmbr:hover {
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .bg {
+            /* The image used */
+            background-color: #DE2523;
+            /* Center and scale the image nicely */
+            background-position: center;
+
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 75px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .comment {
+            text-align: center;
+            height: 65px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Ini untuk navbar-->
+    <div class="navbar">
+        <div class="container">
+            <a href="index.html"><img
+                    src="image\f-02.png" id="gmbr"
+                    style="height: 32px; width: 18,125px;"></a>
+            <div class="dua" style="margin: 7px 0px; font-family: 'Montserrat', sans-serif;">
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="#" class="logokanan" style="float: right; margin: -3px 0px; "><img
+                    src="image\seclog-02.png"
+                    style="width: 86px; height: 38px; margin: -9px -24px;"></a>
+        </div>
+    </div>
+
+    <!--ini untuk comment-->
+    <div class="bg">
+        <div style="height: 50%; overflow:inherit; background-color:#DE2523;" id="contact">
+            <div class="container">
+                <br>
+                <h2 style="margin: 45px 412px; padding: 14px 9px;font-family: 'Montserrat', sans-serif; color: white;">Let's Get In Touch!</h2>
+                <div class="comment">
+                    <input type="text" name="name" required placeholder="name" style="border-radius: 5px;">
+                    <input type="email" name="email" required placeholder="email" style="border-radius: 5px;">
+                    <input type="text" name="subject" required placeholder="subject" style="border-radius: 5px;">
+                    <br>
+                </div>
+
+                <div class="col-75" style="text-align:center; margin: 5px 20px;">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:210px; border-radius: 5px;"></textarea>
+                    <br>
+                    <br>
+                </div>
+
+                <div style="text-align:center;">
+                    <input type="submit" value="Submit" style="border-radius: 15px; text-align: center; width: 120px;">
+                </div>
+                <br>
+                <br>
+
+                <div style="text-align:center;">
+                <h2 style="font-family: 'Montserrat', sans-serif; color:white;">
+                    Our Location
+                </h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.869866148603!2d106.781713!3d-6.2018962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x209cb1eef39be168!2sUniversitas%20Bina%20Nusantara%20Anggrek!5e0!3m2!1sid!2sid!4v1576490771831!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <br>
+
+                <!--ini untuk video nya-->
+                <div style="height: 100vh; overflow:inherit; background-color:rgb(98, 98, 98);" id="contact">
+                    <br>
+                    <div class="container">
+                        <h2 style="margin: 15px 228px; padding: 14px 9px;font-family: 'Montserrat', sans-serif; color: white;">Play the Video for our Contact</h2>
+                        <video width="400" style="width: 70%;
+            height: 70%; margin: 10px 90px;" controls>
+                            <source src="PROJECT_MULMED_mp4.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
